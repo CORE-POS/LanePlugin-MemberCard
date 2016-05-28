@@ -1,0 +1,16 @@
+{
+    "name": "corepos/lane-plugin-member-card",
+    "description": "Lane plugin for scannable, barcoded member cards",
+    "type": "corepos-lane-plugin",
+    "version": "1.0.0",
+    "require": {
+        "corepos/composer-installer": ">=1.0.1"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^5.3"
+    },
+    "autoload": {
+        "exclude-from-classmap": ["/*.php", "/noauto/"]
+    },
+    "license": "GPL2"
+}
